@@ -8,6 +8,13 @@ module.exports = {
       secondry:"#7F56D9",
       light:"#FFFFFF",
       notification:"#2AAA94",
+      card1:"#DF385B",
+      card2:"#5AB48E",
+      card3:"#7F56D9",
+      card4:"#FAB437",
+      card5:"#2AAA94",
+      card6:"#2CD182",
+      
       
       },
       backgroundImage: {
