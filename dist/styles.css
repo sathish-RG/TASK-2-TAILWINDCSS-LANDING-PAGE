@@ -614,6 +614,10 @@ video {
   margin-left: 525px;
 }
 
+.ml-\[610px\] {
+  margin-left: 610px;
+}
+
 .ml-\[800px\] {
   margin-left: 800px;
 }
@@ -642,38 +646,6 @@ video {
   margin-top: 30px;
 }
 
-.ml-0\.5 {
-  margin-left: 0.125rem;
-}
-
-.ml-96 {
-  margin-left: 24rem;
-}
-
-.ml-\[\] {
-  margin-left: ;
-}
-
-.ml-\[700px\] {
-  margin-left: 700px;
-}
-
-.ml-\[00px\] {
-  margin-left: 00px;
-}
-
-.ml-\[650px\] {
-  margin-left: 650px;
-}
-
-.ml-\[620px\] {
-  margin-left: 620px;
-}
-
-.ml-\[610px\] {
-  margin-left: 610px;
-}
-
 .flex {
   display: flex;
 }
@@ -694,6 +666,10 @@ video {
   height: 2rem;
 }
 
+.h-80 {
+  height: 20rem;
+}
+
 .h-96 {
   height: 24rem;
 }
@@ -702,8 +678,16 @@ video {
   height: 400px;
 }
 
-.h-\[936px\] {
-  height: 936px;
+.h-\[536px\] {
+  height: 536px;
+}
+
+.h-6 {
+  height: 1.5rem;
+}
+
+.h-60 {
+  height: 15rem;
 }
 
 .w-1\/2 {
@@ -762,10 +746,6 @@ video {
   flex-wrap: wrap;
 }
 
-.content-center {
-  align-content: center;
-}
-
 .justify-center {
   justify-content: center;
 }
@@ -818,6 +798,11 @@ video {
   background-color: rgb(42 170 148 / var(--tw-bg-opacity, 1));
 }
 
+.bg-primary {
+  --tw-bg-opacity: 1;
+  background-color: rgb(8 63 155 / var(--tw-bg-opacity, 1));
+}
+
 .bg-slate-300 {
   --tw-bg-opacity: 1;
   background-color: rgb(203 213 225 / var(--tw-bg-opacity, 1));
@@ -826,11 +811,6 @@ video {
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
-}
-
-.bg-primary {
-  --tw-bg-opacity: 1;
-  background-color: rgb(8 63 155 / var(--tw-bg-opacity, 1));
 }
 
 .bg-custom-gradient {
@@ -856,17 +836,16 @@ video {
      object-fit: cover;
 }
 
-.object-center {
-  -o-object-position: center;
-     object-position: center;
-}
-
 .p-1\.5 {
   padding: 0.375rem;
 }
 
 .p-3 {
   padding: 0.75rem;
+}
+
+.pl-10 {
+  padding-left: 2.5rem;
 }
 
 .pl-36 {
@@ -885,12 +864,20 @@ video {
   padding-left: 20rem;
 }
 
+.pl-\[100px\] {
+  padding-left: 100px;
+}
+
 .pr-10 {
   padding-right: 2.5rem;
 }
 
 .pt-14 {
   padding-top: 3.5rem;
+}
+
+.pt-16 {
+  padding-top: 4rem;
 }
 
 .pt-2 {
@@ -901,8 +888,20 @@ video {
   padding-top: 5rem;
 }
 
+.pt-4 {
+  padding-top: 1rem;
+}
+
+.pt-5 {
+  padding-top: 1.25rem;
+}
+
 .pt-\[120px\] {
   padding-top: 120px;
+}
+
+.pt-32 {
+  padding-top: 8rem;
 }
 
 .text-center {
@@ -940,6 +939,11 @@ video {
 .text-primary {
   --tw-text-opacity: 1;
   color: rgb(8 63 155 / var(--tw-text-opacity, 1));
+}
+
+.text-sky-400 {
+  --tw-text-opacity: 1;
+  color: rgb(56 189 248 / var(--tw-text-opacity, 1));
 }
 
 .text-white {
